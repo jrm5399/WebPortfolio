@@ -1,24 +1,44 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useEffect, useState } from "react";
+import "./App.css";
+import LandingPage from "./LandingPage";
+import AboutMe from "./AboutMe";
+import ProjectsGrid from "./ProjectGrid";
 
 function App() {
+  const [showAboutMe, setShowAboutMe] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollPosition = window.scrollY;
+      const windowHeight = window.innerHeight;
+
+      // Calculate the offset for showing the AboutMe section
+      const aboutMeOffset = windowHeight * 0.9; // Adjust this value as needed
+
+      // Check if the user has scrolled past the offset
+      if (scrollPosition > aboutMeOffset) {
+        setShowAboutMe(true);
+      } else {
+        setShowAboutMe(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <LandingPage />
+      <div className={`about-me-container ${showAboutMe ? "active" : ""}`}>
+        <AboutMe />
+      </div>
+      <div className="projects-container">
+        <ProjectsGrid />
+      </div>
     </div>
   );
 }

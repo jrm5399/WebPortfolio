@@ -1,38 +1,149 @@
-.App {
-  text-align: center;
+.landing-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: black;
+  overflow: hidden;
+  position: relative;
+  z-index: 2;
 }
 
-.App-logo {
-  height: 40vmin;
+.centered-content {
+  position: relative;
+  z-index: 2; /* Update the z-index value */
+}
+
+.background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
   pointer-events: none;
+  overflow: hidden;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.background:before {
+  content: "";
+  position: flex;
+  top: -200px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  opacity: 0.9;
+  z-index: 0;
+}
+
+.falling-code {
+  position: flex;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.falling-code span {
+  position: flex;
+  top: 0;
+  left: 50%;
+  font-size: 20px;
+  animation: falling-animation 5s linear infinite;
+  color: green;
+  transform: translateX(-50%);
+}
+
+@keyframes falling-animation {
+  0% {
+    transform: translateY(-100vh);
+  }
+  100% {
+    transform: translateY(100vh);
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.name {
+  font-size: 4rem;
+  animation: glowingText 2s infinite;
+}
+
+@keyframes glowingText {
+  0% {
+    text-shadow: 0 0 5px green;
+  }
+  50% {
+    text-shadow: 0 0 20px green;
+  }
+  100% {
+    text-shadow: 0 0 5px green;
+  }
+}
+
+.job-titles-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  margin-top: 1rem;
   color: white;
+  font-size: 2rem;
+  text-shadow: 0 0 10px #00ff00;
+}
+/*About Me*/
+.about-me-title {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 0 10px #00ff00;
 }
 
-.App-link {
-  color: #61dafb;
+.about-me-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: black;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.about-me-section {
+  display: absolute;
+  padding: 40px;
+  background-color: #fff;
+  border-radius: 8px;
+  max-width: 800px;
+  margin: 0 auto;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.about-me-section.active {
+  display: block;
+}
+
+.about-me-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.about-me-section p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  color: #666;
+}
+
+.name-title {
+  transition: all 0.4s ease-in-out;
+  display: inline-block;
+}
+
+.name-title:hover {
+  transform: scale(1.3);
+  animation: glowingText 2s infinite;
 }
