@@ -19,22 +19,15 @@ const JobTitles: React.FC<JobTitlesProps> = ({ titles }) => {
   }, [titles]);
 
   return (
-    <section className="job-titles">
+    <section className="job-titles-container">
       <Typewriter
         options={{
           strings: titles,
           autoStart: true,
-          loop: true,
+          loop: true, // Enable loop to continuously loop through titles
           cursor: "",
           delay: 80,
           deleteSpeed: 50,
-        }}
-        onInit={(typewriter) => {
-          typewriter.pauseFor(1000);
-          typewriter
-            .deleteAll()
-            .typeString(titles[currentIndex])
-            .start();
         }}
       />
     </section>

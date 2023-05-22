@@ -30,6 +30,7 @@ const LandingPage: React.FC = () => {
     "Data Scientist",
     "Machine Learning Engineer",
     "Software Engineer",
+    "Web Developer",
   ];
 
   return (
