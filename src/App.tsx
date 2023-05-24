@@ -3,6 +3,7 @@ import "./App.css";
 import LandingPage from "./LandingPage";
 import AboutMe from "./AboutMe";
 import ProjectsGrid from "./ProjectGrid";
+import SocialLinks from "./SocialLinks";
 
 function App() {
   const [showAboutMe, setShowAboutMe] = useState(false);
@@ -30,15 +31,21 @@ function App() {
     };
   }, []);
 
+  const handleProjectClick = (projectId: number) => {
+    // Handle the project click event
+  };
+
   return (
     <div className="App">
       <LandingPage />
       <div className={`about-me-container ${showAboutMe ? "active" : ""}`}>
         <AboutMe />
+        <h2 className="projects-label">Projects</h2>
       </div>
       <div className="projects-container">
-        <ProjectsGrid />
+        <ProjectsGrid onProjectClick={handleProjectClick} />
       </div>
+      <SocialLinks />
     </div>
   );
 }

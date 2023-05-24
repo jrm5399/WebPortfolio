@@ -22,9 +22,8 @@ const AboutMe: React.FC = () => {
           into the world of web development. In fact, I had the opportunity to
           work extensively on <span className="bolder">Web Development </span>
           projects during my role as a
-          <span className="bolder"> Graduate Research Assistant</span> at the
-          University. This experience allowed me to expand my knowledge and
-          proficiency in
+          <span className="bolder"> Graduate Research Assistant</span>. This
+          experience allowed me to expand my knowledge and proficiency in
           <span className="bolder"> creating custom websites</span> using
           frameworks including
           <span className="bolder"> React </span>,

@@ -1,3 +1,6 @@
+/* body {
+  background-color: black;
+} */
 .landing-page {
   display: flex;
   justify-content: center;
@@ -140,6 +143,7 @@
   align-items: flex-start;
   padding: 25px;
   autoflow-y: auto;
+  position: relative;
 }
 
 .about-me-section {
@@ -180,11 +184,33 @@
 }
 
 /*Projects*/
+.projects-label {
+  position: absolute;
+  bottom: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 55px;
+  color: #fff;
+  background-color: #000;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  text-shadow: 0 0 8px #00ff00;
+}
+
 .project-section {
   margin-top: 2rem;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.projects-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Center the cards horizontally */
+  background-color: black;
 }
 
 .project-card {
@@ -193,12 +219,9 @@
   background-color: #fff;
   border-radius: 8px;
   padding: 20px;
-  margin-bottom: 1rem;
+  margin: 0.5rem;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-}
-
-.project-card:last-child {
-  margin-bottom: 0;
+  position: relative; /* Add position relative */
 }
 
 .project-card h3 {
@@ -213,8 +236,92 @@
   color: #666;
 }
 
+.project-description {
+  flex-grow: 1;
+}
+
+.button-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: auto;
+}
+
+.expand-button,
+.close-button {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-size: 1.2rem;
+  border: none;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.expand-button:hover,
+.close-button:hover {
+  background-color: #555;
+}
+
+.close-button {
+  background-color: #ff0000;
+}
+
+.close-button:hover {
+  background-color: #cc0000;
+}
+
 @media (max-width: 550px) {
   .project-section {
     margin-top: 1rem;
   }
+}
+
+/*GitHub Logo*/
+.github-link {
+  display: flex;
+  justify-content: center;
+}
+
+.github-logo-container {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.github-logo {
+  width: 40px;
+  height: 40px;
+  transition: filter 0.3s;
+}
+
+.github-logo:hover {
+  filter: brightness(1.8);
+}
+
+/*Socials*/
+.socials-container {
+  text-align: center;
+}
+
+.socials-buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.social-button {
+  margin: 0 10px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.social-button:hover {
+  transform: scale(1.1);
+}
+
+.social-logo {
+  width: 40px;
+  height: 40px;
 }
