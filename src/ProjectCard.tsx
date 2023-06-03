@@ -8,7 +8,6 @@ interface ProjectCardProps {
     description: string;
     summary: string;
     githubRepo: string;
-    // Add more properties as needed
   };
   onClick: (projectId: number) => void;
   isExpanded: boolean;

@@ -40,8 +40,8 @@ function App() {
       <LandingPage />
       <div className={`about-me-container ${showAboutMe ? "active" : ""}`}>
         <AboutMe />
-        <h2 className="projects-label">Projects</h2>
       </div>
+      <h2 className="projects-label">Projects</h2>
       <div className="projects-container">
         <ProjectsGrid onProjectClick={handleProjectClick} />
       </div>

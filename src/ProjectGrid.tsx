@@ -13,7 +13,6 @@ const ProjectsGrid: React.FC<ProjectsGridProps> = ({ onProjectClick }) => {
 
   return (
     <div className="projects-grid">
-      {/* Render your project cards here */}
       <ProjectCard
         project={{
           id: 1,

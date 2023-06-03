@@ -5,7 +5,6 @@ interface ProjectModalProps {
     title: string;
     summary: string;
     githubRepo: string;
-    // Add more properties as needed
   };
   onClose: () => void;
   onClick: (event: React.MouseEvent) => void;
@@ -39,6 +38,8 @@ const ProjectModal: React.FC<ProjectModalProps> = ({
         <button className="close-button" onClick={onClose}>
           Close
         </button>
+        {/* new button */}
+        <button>More Info</button>
       </div>
     </div>
   );
