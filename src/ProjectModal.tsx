@@ -5,6 +5,7 @@ interface ProjectModalProps {
     title: string;
     summary: string;
     githubRepo: string;
+    imageUrls: string[];
   };
   onClose: () => void;
   onClick: (event: React.MouseEvent) => void;
@@ -20,6 +21,16 @@ const ProjectModal: React.FC<ProjectModalProps> = ({
       <div className="modal-content">
         <h3>Summary</h3>
         <p>{project.summary}</p>
+        <div className="image-container">
+          {project.imageUrls.map((imageUrl, index) => (
+            <img
+              key={index}
+              src={imageUrl}
+              alt={`${project.title} Image ${index + 1}`}
+              className="project-image"
+            />
+          ))}
+        </div>
         <div className="github-link">
           <a
             href={project.githubRepo}
@@ -38,8 +49,6 @@ const ProjectModal: React.FC<ProjectModalProps> = ({
         <button className="close-button" onClick={onClose}>
           Close
         </button>
-        {/* new button */}
-        <button>More Info</button>
       </div>
     </div>
   );

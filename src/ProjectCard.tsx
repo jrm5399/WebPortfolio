@@ -8,6 +8,7 @@ interface ProjectCardProps {
     description: string;
     summary: string;
     githubRepo: string;
+    imageUrls: string[];
   };
   onClick: (projectId: number) => void;
   isExpanded: boolean;
@@ -43,6 +44,11 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
 
   const handleGitHubClick = (event: React.MouseEvent) => {
     event.stopPropagation();
+  };
+
+  const handleMoreInfoClick = (event: React.MouseEvent) => {
+    event.stopPropagation();
+    openModal();
   };
 
   return (
