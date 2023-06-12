@@ -1,6 +1,11 @@
 /* body {
   background-color: black;
 } */
+
+.html {
+  scroll-behavior: smooth;
+}
+
 .landing-page {
   display: flex;
   justify-content: center;
@@ -117,6 +122,46 @@
   }
 }
 
+/*Arrow*/
+.arrow-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
+  animation: arrowBounce 2s infinite;
+}
+
+.arrow {
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+  animation: arrowFade 2s infinite;
+}
+
+@keyframes arrowBounce {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes arrowFade {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 /*About Me*/
 .about-me-title {
   font-size: 3rem;
@@ -144,6 +189,12 @@
   padding: 25px;
   autoflow-y: auto;
   position: relative;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.about-me-container.active {
+  opacity: 1;
 }
 
 .about-me-section {

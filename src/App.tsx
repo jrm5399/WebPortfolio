@@ -4,6 +4,7 @@ import LandingPage from "./LandingPage";
 import AboutMe from "./AboutMe";
 import ProjectsGrid from "./ProjectGrid";
 import SocialLinks from "./SocialLinks";
+import "./App.css";
 
 function App() {
   const [showAboutMe, setShowAboutMe] = useState(false);
@@ -32,13 +33,17 @@ function App() {
   }, []);
 
   const handleProjectClick = (projectId: number) => {
-    // Handle the project click event
+    // Handle the project click event: TODO
   };
 
   return (
     <div className="App">
       <LandingPage />
-      <div className={`about-me-container ${showAboutMe ? "active" : ""}`}>
+      <div className="arrow-container"></div>
+      <div
+        className={`about-me-container ${showAboutMe ? "active" : ""}`}
+        id="about-me"
+      >
         <AboutMe />
       </div>
       <h2 className="projects-label">Projects</h2>

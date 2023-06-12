@@ -51,6 +51,9 @@ const LandingPage: React.FC = () => {
         <div className="job-titles-container">
           <JobTitles titles={jobTitles} />
         </div>
+        <a href="#about-me" className="arrow-container">
+          <img className="arrow" src="arrow-icon.png" alt="Arrow" />
+        </a>
       </div>
     </div>
   );

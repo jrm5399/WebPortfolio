@@ -12,6 +12,9 @@ const SocialLinks = () => {
   const handleMailClick = () => {
     window.open("mailto:jrm5399@live.com", "_blank");
   };
+  const handleKaggleClick = () => {
+    window.open("https://kaggle.com/murph99", "_blank");
+  };
 
   return (
     <div className="socials-container">
@@ -25,6 +28,9 @@ const SocialLinks = () => {
         </button>
         <button className="social-button" onClick={handleMailClick}>
           <img src="mail.webp" alt="Mail" className="social-logo" />
+        </button>
+        <button className="social-button" onClick={handleKaggleClick}>
+          <img src="kaggle-icon.png" alt="Kaggle" className="social-logo" />
         </button>
       </div>
     </div>
