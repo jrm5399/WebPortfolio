@@ -5,6 +5,7 @@ import AboutMe from "./AboutMe";
 import ProjectsGrid from "./ProjectGrid";
 import SocialLinks from "./SocialLinks";
 import "./App.css";
+import Skills from "./Skills";
 
 function App() {
   const [showAboutMe, setShowAboutMe] = useState(false);
@@ -49,6 +50,10 @@ function App() {
       <h2 className="projects-label">Projects</h2>
       <div className="projects-container">
         <ProjectsGrid onProjectClick={handleProjectClick} />
+      </div>
+      <div className="skills-container">
+        <h1 className="projects-label">Skills</h1>
+        <Skills />
       </div>
       <SocialLinks />
     </div>
