@@ -6,19 +6,21 @@ const Skills: React.FC = () => {
     {
       name: "Python",
       imageUrl: "python-logo.png",
-      description: `In Python, I have honed my expertise in data-oriented and machine learning practices, with a primary focus on computer vision. My journey in AI has involved a deep dive into cutting-edge techniques and frameworks, enabling me to develop robust solutions for a wide range of AI-based applications. Here are some key aspects of my experience in AI with Python:
+      description: `In Python, I have explored the fascinating realm of data-oriented and machine learning practices, focusing primarily on computer vision. Throughout my AI journey, I have delved deep into cutting-edge techniques and frameworks, enabling me to develop robust solutions for a wide range of AI-based applications. Here are some key aspects of my experience in AI with Python:
 
-- Computer Vision: Computer vision has been at the forefront of my AI endeavors. I have delved into the world of image processing, object detection, segmentation, and recognition using popular libraries and frameworks like OpenCV, scikit-image, TensorFlow, and the YOLO architecture. Leveraging Python's powerful image processing capabilities, I have developed algorithms to extract meaningful information from images and videos, enabling applications such as facial recognition, object tracking, and augmented reality.
+1. Computer Vision: Computer vision has been a prominent area of my AI endeavors. I have extensively worked on image processing, object detection, segmentation, and recognition using popular libraries and frameworks such as OpenCV, scikit-image, TensorFlow, and the YOLO (You Only Look Once) architecture. Leveraging the powerful image processing capabilities of Python, I have developed algorithms to extract meaningful information from images and videos. Notably, I have worked on projects involving real-time detection of cards and cell parts, utilizing the YOLO CNN architecture. In these projects, I employed synthetic image generation techniques to create custom datasets, enhancing the robustness of the models.
 
-- Machine Learning: My expertise extends to machine learning, where I have applied various algorithms and techniques to analyze and make predictions from data. Python's rich ecosystem of libraries, such as scikit-learn, TensorFlow, and PyTorch, has been instrumental in my machine learning endeavors. I have worked on tasks like classification, regression, clustering, and natural language processing, utilizing both traditional machine learning algorithms and cutting-edge deep learning models.
+2. Machine Learning: I possess a strong foundation in machine learning, employing various algorithms and techniques to analyze data and make predictions. Python's rich ecosystem of libraries, including scikit-learn, TensorFlow, and PyTorch, has been integral to my machine learning endeavors. I have tackled diverse tasks such as classification, regression, clustering, and natural language processing. My expertise extends to both traditional machine learning algorithms and cutting-edge deep learning models, allowing me to leverage the strengths of each approach for optimal results.
 
-- Data Manipulation and Analysis: Python's libraries, including Pandas and NumPy, have been invaluable in my data-oriented AI projects. I have gained proficiency in data manipulation, preprocessing, and feature engineering, allowing me to effectively handle and prepare datasets for training machine learning models. Exploratory data analysis, statistical analysis, and data visualization have also been essential components of my AI workflow.
+3. Data Manipulation and Analysis: Proficiency in data manipulation and analysis is vital in the field of AI. Python's powerful libraries, particularly Pandas and NumPy, have been instrumental in my data-oriented AI projects. I have honed my skills in data manipulation, preprocessing, and feature engineering, enabling effective handling and preparation of datasets for machine learning model training. Furthermore, I have leveraged exploratory data analysis, statistical analysis, and data visualization techniques to gain valuable insights from the data.
 
-- Model Evaluation and Deployment: Evaluating and deploying machine learning models is crucial for real-world applications. I have extensive experience in evaluating model performance using appropriate metrics and cross-validation techniques. Additionally, I have deployed machine learning models in production environments, leveraging frameworks like Flask and Django to develop APIs for model inference and integration with web applications.
+4. Model Evaluation and Deployment: Evaluating and deploying machine learning models is crucial for real-world applications. I possess extensive experience in evaluating model performance using appropriate metrics and employing cross-validation techniques. Additionally, I have successfully deployed machine learning models in production environments along side facilitating model inferences and integration with web applications.
 
-- Deep Learning: Deep learning has played a significant role in my AI journey. I have explored neural networks, convolutional neural networks (CNNs), recurrent neural networks (RNNs), and generative models. Leveraging libraries like TensorFlow and PyTorch, I have trained and fine-tuned deep learning models on large-scale datasets, achieving state-of-the-art results in various domains, including computer vision, natural language processing, and speech recognition.
+5. Deep Learning: Deep learning has been a significant component of my AI journey. I have explored various neural network architectures, including convolutional neural networks (CNNs), recurrent neural networks (RNNs), and generative models. By harnessing the capabilities of libraries like TensorFlow and PyTorch, I have trained and fine-tuned deep learning models on large-scale datasets. Notably, my deep learning expertise has yielded state-of-the-art results in domains such as computer vision, natural language processing, and speech recognition.
 
-My expertise in data-oriented and machine learning practices, coupled with my proficiency in Python and its AI libraries, has equipped me to tackle complex AI challenges and develop innovative solutions. I am passionate about leveraging the power of AI to drive advancements in various industries, and I am excited to continue exploring new AI-based applications with Python.`,
+In addition to the aforementioned areas of expertise, I have undertaken notable projects in AI. For instance, I have developed real-time card detection and cell detection systems using the YOLO CNN architecture. These projects involved synthetic image generation techniques to create custom datasets, which enhanced the accuracy and robustness of the models. Furthermore, I have worked on time series forecasting using LSTM (Long Short-Term Memory) models, enabling accurate predictions and insights.
+
+Overall, my experience in data-oriented and machine learning practices, coupled with my proficiency in Python and its AI libraries, has equipped me to tackle complex AI challenges and develop innovative solutions. I am deeply passionate about leveraging the power of AI to drive advancements in various industries, and I am excited to continue exploring new AI-based applications with Python.`,
       libraries: [
         "scikit-learn",
         "openCV",
@@ -133,6 +135,32 @@ Functional programming in Haskell offered me a fresh perspective on software dev
 
 Erlang's unique features and design principles, coupled with its focus on concurrency, fault tolerance, and distribution, empowered me to develop highly reliable and scalable systems. My experiences with Erlang's process model, PID handling, fault tolerance mechanisms, and distributed computing have greatly enhanced my understanding of concurrent and fault-tolerant programming paradigms.`,
       libraries: ["O&M", "Standard"],
+    },
+    {
+      name: "React JS",
+      imageUrl: "react-logo.png",
+      description: `With over two years of hands-on experience in JavaScript, particularly with a strong focus on React JS, I have honed my skills in web development and crafted numerous custom websites using React and TypeScript. One notable example is the very website you are currently visiting.
+
+My journey with React JS has been filled with exciting challenges and rewarding outcomes. I possess a deep understanding of React's component-based architecture and its ecosystem of libraries and tools. Leveraging my proficiency in JavaScript and TypeScript, I have successfully implemented dynamic user interfaces, state management, and efficient data flow within complex web applications.
+
+Through my experience, I have gained expertise in building responsive and interactive web experiences. I have mastered the art of composing reusable and modular React components, ensuring clean and maintainable codebases. Additionally, I have leveraged advanced features like React Hooks and Context API to enhance the performance and scalability of my applications.
+
+Moreover, I have embraced modern web development practices, such as using webpack for bundling, integrating third-party libraries, and staying up-to-date with the latest web standards and best practices. I am particularly interested in exploring web scraping techniques, allowing me to extract and process data from various sources to create valuable insights and applications.
+
+With a keen eye for UI/UX design principles and a focus on delivering intuitive user experiences, I strive to create visually appealing and user-friendly websites. I am well-versed in CSS frameworks like Bootstrap and have a solid understanding of responsive design principles to ensure seamless experiences across different devices.
+
+I am excited to continue my journey with React JS, staying up-to-date with the latest advancements in the framework and exploring emerging technologies and techniques. With my proven track record and passion for crafting exceptional web experiences, I am confident in my ability to contribute to the success of future web projects.`,
+      libraries: ["Boot Strap", "Router", "Query", "Axios"],
+    },
+    {
+      name: "My-SQL",
+      imageUrl: "sql-logo.png",
+      description: `In my journey of exploring SQL, I have been actively learning and delving into the intricacies of this powerful language for data management and analysis. Through hands-on practice and experimentation, I have gained a solid foundation in SQL syntax and principles. I am proficient in creating and manipulating tables, performing queries, and extracting valuable insights from data.
+
+My focus has been on acquiring the skills necessary to retrieve, filter, and aggregate data efficiently. I have explored various SQL functionalities, including joins, subqueries, and data manipulation operations, to enhance my ability to extract meaningful information from databases. Additionally, I have been familiarizing myself with concepts such as database normalization and indexing to optimize query performance.
+
+As I continue my journey in SQL, I am enthusiastic about further expanding my knowledge and mastering advanced techniques. I am eager to tackle more complex data-related challenges, refine my query optimization skills, and leverage SQL's capabilities to analyze and transform data effectively. `,
+      libraries: ["N/A"],
     },
   ];
 

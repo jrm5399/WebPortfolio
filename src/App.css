@@ -456,8 +456,8 @@ body {
 }
 
 .skill-image {
-  width: 100px;
-  height: 100px;
+  width: 125px;
+  height: 125px;
   object-fit: contain;
   transition: transform 0.3s, box-shadow 0.3s;
 }
@@ -473,7 +473,7 @@ body {
 
 .skill-pop-up {
   background-color: #ffffff;
-  color: #000000;
+  color: black;
   padding: 10px;
   border-radius: 5px;
   font-size: 40px;
