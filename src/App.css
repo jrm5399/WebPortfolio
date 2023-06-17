@@ -456,8 +456,8 @@ body {
 }
 
 .skill-image {
-  width: 125px;
-  height: 125px;
+  width: 135px;
+  height: 135px;
   object-fit: contain;
   transition: transform 0.3s, box-shadow 0.3s;
 }

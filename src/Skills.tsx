@@ -6,21 +6,49 @@ const Skills: React.FC = () => {
     {
       name: "Python",
       imageUrl: "python-logo.png",
-      description: `In Python, I have explored the fascinating realm of data-oriented and machine learning practices, focusing primarily on computer vision. Throughout my AI journey, I have delved deep into cutting-edge techniques and frameworks, enabling me to develop robust solutions for a wide range of AI-based applications. Here are some key aspects of my experience in AI with Python:
+      description: `Computer Vision:
+  - Extensive work on image processing, object detection, segmentation, and recognition.
+  - Used libraries and frameworks like OpenCV, scikit-image, TensorFlow, and YOLO.
+  - Developed algorithms for real-time card and cell part detection.
+  - Employed synthetic image generation techniques to enhance model robustness.
 
-1. Computer Vision: Computer vision has been a prominent area of my AI endeavors. I have extensively worked on image processing, object detection, segmentation, and recognition using popular libraries and frameworks such as OpenCV, scikit-image, TensorFlow, and the YOLO (You Only Look Once) architecture. Leveraging the powerful image processing capabilities of Python, I have developed algorithms to extract meaningful information from images and videos. Notably, I have worked on projects involving real-time detection of cards and cell parts, utilizing the YOLO CNN architecture. In these projects, I employed synthetic image generation techniques to create custom datasets, enhancing the robustness of the models.
+Machine Learning:
+----------------
+  - Strong foundation in machine learning with Python.
+  - Used scikit-learn, TensorFlow, and PyTorch.
+  - Expertise in classification, regression, clustering, and NLP.
+  - Familiarity with traditional ML algorithms and deep learning models.
 
-2. Machine Learning: I possess a strong foundation in machine learning, employing various algorithms and techniques to analyze data and make predictions. Python's rich ecosystem of libraries, including scikit-learn, TensorFlow, and PyTorch, has been integral to my machine learning endeavors. I have tackled diverse tasks such as classification, regression, clustering, and natural language processing. My expertise extends to both traditional machine learning algorithms and cutting-edge deep learning models, allowing me to leverage the strengths of each approach for optimal results.
+Data Manipulation and Analysis:
+------------------------------
+  - Proficient in data manipulation using Pandas and NumPy.
+  - Skilled in preprocessing, feature engineering, and dataset preparation.
+  - Applied exploratory data analysis, statistical analysis, and data visualization.
 
-3. Data Manipulation and Analysis: Proficiency in data manipulation and analysis is vital in the field of AI. Python's powerful libraries, particularly Pandas and NumPy, have been instrumental in my data-oriented AI projects. I have honed my skills in data manipulation, preprocessing, and feature engineering, enabling effective handling and preparation of datasets for machine learning model training. Furthermore, I have leveraged exploratory data analysis, statistical analysis, and data visualization techniques to gain valuable insights from the data.
+Model Evaluation and Deployment:
+-------------------------------
+  - Extensive experience in evaluating model performance.
+  - Employed appropriate metrics and cross-validation techniques.
+  - Successfully deployed ML models in production environments.
+  - Integrated models with web applications for inference.
 
-4. Model Evaluation and Deployment: Evaluating and deploying machine learning models is crucial for real-world applications. I possess extensive experience in evaluating model performance using appropriate metrics and employing cross-validation techniques. Additionally, I have successfully deployed machine learning models in production environments along side facilitating model inferences and integration with web applications.
+Deep Learning:
+-------------
+  - Explored various neural network architectures.
+  - Used TensorFlow and PyTorch for training and fine-tuning.
+  - Achieved state-of-the-art results in computer vision, NLP, and speech recognition.
 
-5. Deep Learning: Deep learning has been a significant component of my AI journey. I have explored various neural network architectures, including convolutional neural networks (CNNs), recurrent neural networks (RNNs), and generative models. By harnessing the capabilities of libraries like TensorFlow and PyTorch, I have trained and fine-tuned deep learning models on large-scale datasets. Notably, my deep learning expertise has yielded state-of-the-art results in domains such as computer vision, natural language processing, and speech recognition.
+Notable Projects:
+----------------
+  - Real-time card and cell detection using YOLO CNN architecture.
+  - Synthetic image generation for custom datasets.
+  - Time series forecasting with LSTM models for accurate predictions.
+  - Worked with BERT to learn Transformer architecture.
 
-In addition to the aforementioned areas of expertise, I have undertaken notable projects in AI. For instance, I have developed real-time card detection and cell detection systems using the YOLO CNN architecture. These projects involved synthetic image generation techniques to create custom datasets, which enhanced the accuracy and robustness of the models. Furthermore, I have worked on time series forecasting using LSTM (Long Short-Term Memory) models, enabling accurate predictions and insights.
-
-Overall, my experience in data-oriented and machine learning practices, coupled with my proficiency in Python and its AI libraries, has equipped me to tackle complex AI challenges and develop innovative solutions. I am deeply passionate about leveraging the power of AI to drive advancements in various industries, and I am excited to continue exploring new AI-based applications with Python.`,
+Overall:
+  - Proficient in data-oriented and machine learning practices.
+  - Strong Python skills and familiarity with AI libraries.
+  - Passionate about leveraging AI for advancements in different industries.`,
       libraries: [
         "scikit-learn",
         "openCV",
@@ -30,6 +58,9 @@ Overall, my experience in data-oriented and machine learning practices, coupled 
         "NumPy",
         "MatPlotLib",
         "SeaBorn",
+        "PyPlot",
+        "PySpark",
+        "SciPy",
       ],
     },
     {
@@ -161,6 +192,30 @@ My focus has been on acquiring the skills necessary to retrieve, filter, and agg
 
 As I continue my journey in SQL, I am enthusiastic about further expanding my knowledge and mastering advanced techniques. I am eager to tackle more complex data-related challenges, refine my query optimization skills, and leverage SQL's capabilities to analyze and transform data effectively. `,
       libraries: ["N/A"],
+    },
+    {
+      name: "PySpark",
+      imageUrl: "pyspark-logo.jpg",
+      description: `During my enrollment in the Parallel Processes class CDA 5121 at UCF, I had the opportunity to extensively work with PySpark. The course primarily emphasized parallelization techniques for handling large datasets. Through hands-on projects and assignments, I gained practical experience in leveraging PySpark's power to process and analyze data in parallel, enabling efficient computation on massive scales. This hands-on exposure to PySpark in a real-world context has equipped me with the skills and knowledge to tackle complex data processing challenges using distributed computing frameworks.`,
+      libraries: ["sql", "SparkConf"],
+    },
+    {
+      name: "Hadoop",
+      imageUrl: "hadoop-logo.png",
+      description: `During my Parallel Processes class CDA 5121 at UCF, I gained hands-on experience with Apache Hadoop, a distributed computing framework. Here are some highlights of my experience with Hadoop in that class:
+
+- [Distributed Computing]: I learned how Hadoop facilitates parallel processing across a cluster of machines, enabling efficient data processing on a large scale.
+
+- [Hadoop Ecosystem]: I explored key components of the Hadoop ecosystem, including HDFS, MapReduce, and YARN, which allowed me to handle distributed storage, data processing, and resource management.
+
+- [Data Processing]: Using Hadoop's MapReduce paradigm, I developed algorithms to process and analyze large datasets, extracting valuable insights from structured and unstructured data.
+
+- [Data Storage and Retrieval]: I became proficient in storing and retrieving data in Hadoop's distributed file system (HDFS), ensuring data durability and optimizing retrieval performance.
+
+- [Real-World Applications]: Through projects in the class, I applied Hadoop to analyze log files, perform sentiment analysis on social media data, and implement recommendation systems, showcasing its capabilities in solving real-world problems.
+
+My experience with Hadoop in the Parallel Processes class equipped me with valuable skills in distributed computing and data processing at scale. It provided a solid foundation for handling big data challenges and leveraging Hadoop's capabilities to drive impactful solutions.`,
+      libraries: ["Apache-Spark"],
     },
   ];
 
