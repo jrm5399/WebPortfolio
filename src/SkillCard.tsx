@@ -6,6 +6,7 @@ interface SkillCardProps {
     imageUrl: string;
     description: string;
     libraries: string[];
+    YoE: string;
   };
 }
 
@@ -18,6 +19,7 @@ const SkillCard: React.FC<SkillCardProps> = ({ skill }) => {
 
   return (
     <div className={`skill-card ${isPopUpVisible ? "pop-up-open" : ""}`}>
+      {/* title={`${skill.YoE}`} */}
       <img
         className="skill-image"
         src={skill.imageUrl}
@@ -25,10 +27,10 @@ const SkillCard: React.FC<SkillCardProps> = ({ skill }) => {
         onClick={togglePopUp}
       />
       <p>{skill.name}</p>
-
       {isPopUpVisible && (
         <div className="skill-pop-up">
           <h3>{skill.name}</h3>
+          <p>{skill.YoE} of experience</p>
           <p className="skill-description">{skill.description}</p>
           <ul>
             <div className="libraries">Libraries</div>

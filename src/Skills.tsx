@@ -46,6 +46,7 @@ Notable Projects:
   - Worked with BERT to learn Transformer architecture.
 
 Overall:
+-------
   - Proficient in data-oriented and machine learning practices.
   - Strong Python skills and familiarity with AI libraries.
   - Passionate about leveraging AI for advancements in different industries.`,
@@ -62,54 +63,65 @@ Overall:
         "PySpark",
         "SciPy",
       ],
+      YoE: "6 Years",
     },
     {
       name: "C",
       imageUrl: "c-logo.png",
-      description: `During my undergraduate studies, I extensively explored diverse algorithmic domains, honing my expertise and gaining valuable hands-on experience. Key areas of focus included:
+      description: `
+During my undergraduate studies, I extensively explored diverse algorithmic domains, honing my expertise and gaining valuable hands-on experience. Key areas of focus included:
 
-- [Lists]: Mastering efficient algorithms for list data structures, including insertion, deletion, and retrieval operations, empowered me to manipulate data effectively.
+Lists:
+- Mastering efficient algorithms for list data structures, including insertion, deletion, and retrieval operations.
+- Empowered me to manipulate data effectively.
 
-- [Graphs]: Delving into techniques like breadth-first search (BFS) and depth-first search (DFS), I acquired the skills to analyze and navigate complex networks, facilitating effective problem-solving in graph-related scenarios.
+Graphs:
+- Delving into techniques like breadth-first search (BFS) and depth-first search (DFS).
+- Acquired the skills to analyze and navigate complex networks.
+- Facilitating effective problem-solving in graph-related scenarios.
 
-- [Dynamic Memory Allocation]: Embracing the challenge of managing memory dynamically, I developed algorithms that optimized resource utilization and gracefully handled varying data sizes, contributing to efficient memory management.
+Dynamic Memory Allocation:
+- Embracing the challenge of managing memory dynamically.
+- Developed algorithms that optimized resource utilization.
+- Gracefully handled varying data sizes.
+- Contributing to efficient memory management.
 
-- [Sorting Algorithms]: Immersed in the realm of sorting algorithms, such as bubble sort, insertion sort, selection sort, merge sort, and quicksort, I became adept at organizing and arranging data in ascending or descending order.
+Sorting Algorithms:
+- Immersed in the realm of sorting algorithms, such as bubble sort, insertion sort, selection sort, merge sort, and quicksort.
+- Became adept at organizing and arranging data in ascending or descending order.
 
-- [Tree-Based Algorithms]: Exploring intricate tree structures, I embraced algorithms for tree traversal (pre-order, in-order, and post-order), insertion, deletion, and balancing, enabling efficient data organization and hierarchical representation.
+Tree-Based Algorithms:
+- Exploring intricate tree structures.
+- Embraced algorithms for tree traversal (pre-order, in-order, and post-order), insertion, deletion, and balancing.
+- Enabling efficient data organization and hierarchical representation.
 
-- [Dynamic Programming]: With a passion for problem-solving, I tackled complex challenges using dynamic programming techniques. By breaking down intricate problems into manageable subproblems and skillfully combining their solutions, I developed optimized algorithms for tasks like the knapsack problem, Fibonacci sequence, and matrix chain multiplication.
+Dynamic Programming:
+- Tackled complex challenges using dynamic programming techniques.
+- Breaking down intricate problems into manageable subproblems.
+- Skillfully combining their solutions.
+- Developed optimized algorithms for tasks like the knapsack problem, Fibonacci sequence, and matrix chain multiplication.
 
-These algorithmic explorations during my undergraduate tenure enriched my understanding of fundamental computational concepts, sharpening my problem-solving skills and equipping me with a solid foundation to tackle new challenges and drive innovative solutions.`,
+These algorithmic explorations during my undergraduate tenure enriched my understanding of fundamental computational concepts, sharpening my problem-solving skills and equipping me 
+with a solid foundation to tackle new challenges and drive innovative solutions.`,
       libraries: ["stdio.h", "stdlib.h", "math.h", "string.h", "assert.h"],
+      YoE: "4 Years",
     },
     {
-      name: "C++",
-      imageUrl: "c++-logo.png",
-      description: `Continuing my exploration of algorithms, I furthered my expertise in C++. Some of the key areas I focused on include:
+      name: "React JS",
+      imageUrl: "react-logo.png",
+      description: `With over two years of hands-on experience in JavaScript, particularly with a strong focus on React JS, I have honed my skills in web development and crafted numerous custom websites using React and TypeScript. One notable example is the very website you are currently visiting.
 
-- Graph Algorithms: I delved deeper into graph algorithms, building on my previous knowledge from C. With C++, I leveraged the object-oriented nature of the language to implement graph data structures and algorithms, such as breadth-first search (BFS), depth-first search (DFS), Dijkstra's algorithm, and minimum spanning tree algorithms.
+My journey with React JS has been filled with exciting challenges and rewarding outcomes. I possess a deep understanding of React's component-based architecture and its ecosystem of libraries and tools. Leveraging my proficiency in JavaScript and TypeScript, I have successfully implemented dynamic user interfaces, state management, and efficient data flow within complex web applications.
 
-- Dynamic Programming: I continued to tackle complex problems using dynamic programming techniques in C++. With the ability to write more concise and expressive code, I developed optimized algorithms for tasks like the knapsack problem, longest common subsequence, and matrix chain multiplication.
+Through my experience, I have gained expertise in building responsive and interactive web experiences. I have mastered the art of composing reusable and modular React components, ensuring clean and maintainable codebases. Additionally, I have leveraged advanced features like React Hooks and Context API to enhance the performance and scalability of my applications.
 
-- Sorting Algorithms: I further expanded my understanding of sorting algorithms in C++, implementing efficient techniques like quicksort, mergesort, heapsort, and radix sort. I explored the standard template library (STL) and its sorting algorithms like std::sort, std::partial_sort, and std::nth_element.
+Moreover, I have embraced modern web development practices, such as using webpack for bundling, integrating third-party libraries, and staying up-to-date with the latest web standards and best practices. I am particularly interested in exploring web scraping techniques, allowing me to extract and process data from various sources to create valuable insights and applications.
 
-- Data Structures: Building on my knowledge of data structures in C, I learned to leverage the power of C++'s standard library to utilize container classes like std::vector, std::list, std::set, std::map, and std::unordered_map. These data structures provided me with more efficient and convenient ways to store and manipulate data.
+With a keen eye for UI/UX design principles and a focus on delivering intuitive user experiences, I strive to create visually appealing and user-friendly websites. I am well-versed in CSS frameworks like Bootstrap and have a solid understanding of responsive design principles to ensure seamless experiences across different devices.
 
-- Object-Oriented Programming: With C++, I embraced the object-oriented paradigm to design and implement reusable and modular algorithms. I leveraged classes, inheritance, and polymorphism to create well-structured and maintainable code.
-
-My experience with algorithms in C++ enhanced my problem-solving skills and deepened my understanding of data structures and algorithmic concepts. The combination of C++'s features and the extensive standard library empowered me to write efficient, readable, and maintainable code.`,
-      libraries: [
-        "iostream",
-        "vector",
-        "string",
-        "algorithm",
-        "map",
-        "set",
-        "queue",
-        "stack",
-        "fstream",
-      ],
+I am excited to continue my journey with React JS, staying up-to-date with the latest advancements in the framework and exploring emerging technologies and techniques. With my proven track record and passion for crafting exceptional web experiences, I am confident in my ability to contribute to the success of future web projects.`,
+      libraries: ["Boot Strap", "Router", "Query", "Axios"],
+      YoE: "2 Years",
     },
     {
       name: "Java",
@@ -128,6 +140,46 @@ My experience with algorithms in C++ enhanced my problem-solving skills and deep
 
 My experience with Java and its rich ecosystem of libraries and frameworks enabled me to develop efficient and scalable solutions. The combination of object-oriented design principles, algorithmic knowledge, and the versatility of Java empowered me to tackle diverse challenges and build robust software systems.`,
       libraries: ["java.util", "java.io"],
+      YoE: "2 Years",
+    },
+    {
+      name: "C++",
+      imageUrl: "c++-logo.png",
+      description: `Continuing my exploration of algorithms, I furthered my expertise in C++. Some of the key areas I focused on include:
+
+Graph Algorithms:
+----------------
+ I delved deeper into graph algorithms, building on my previous knowledge from C. With C++, I leveraged the object-oriented nature of the language to implement graph data structures and algorithms, such as breadth-first search (BFS), depth-first search (DFS), Dijkstra's algorithm, and minimum spanning tree algorithms.
+
+Dynamic Programming: 
+-------------------
+I continued to tackle complex problems using dynamic programming techniques in C++. With the ability to write more concise and expressive code, I developed optimized algorithms for tasks like the knapsack problem, longest common subsequence, and matrix chain multiplication.
+
+Sorting Algorithms:
+------------------
+ I further expanded my understanding of sorting algorithms in C++, implementing efficient techniques like quicksort, mergesort, heapsort, and radix sort. I explored the standard template library (STL) and its sorting algorithms like std::sort, std::partial_sort, and std::nth_element.
+
+Data Structures:
+---------------
+ Building on my knowledge of data structures in C, I learned to leverage the power of C++'s standard library to utilize container classes like std::vector, std::list, std::set, std::map, and std::unordered_map. These data structures provided me with more efficient and convenient ways to store and manipulate data.
+
+Object-Oriented Programming:
+---------------------------
+ With C++, I embraced the object-oriented paradigm to design and implement reusable and modular algorithms. I leveraged classes, inheritance, and polymorphism to create well-structured and maintainable code.
+
+My experience with algorithms in C++ enhanced my problem-solving skills and deepened my understanding of data structures and algorithmic concepts. The combination of C++'s features and the extensive standard library empowered me to write efficient, readable, and maintainable code.`,
+      libraries: [
+        "iostream",
+        "vector",
+        "string",
+        "algorithm",
+        "map",
+        "set",
+        "queue",
+        "stack",
+        "fstream",
+      ],
+      YoE: "1 Year",
     },
     {
       name: "Haskell",
@@ -148,6 +200,7 @@ My experience with Java and its rich ecosystem of libraries and frameworks enabl
 
 Functional programming in Haskell offered me a fresh perspective on software development, enabling me to write code that is concise, modular, and highly reusable. It empowered me to solve complex problems by leveraging the power of pure functions, immutability, and higher-order abstractions.`,
       libraries: ["Prelude"],
+      YoE: "less than 1 Year",
     },
     {
       name: "Erlang",
@@ -166,22 +219,7 @@ Functional programming in Haskell offered me a fresh perspective on software dev
 
 Erlang's unique features and design principles, coupled with its focus on concurrency, fault tolerance, and distribution, empowered me to develop highly reliable and scalable systems. My experiences with Erlang's process model, PID handling, fault tolerance mechanisms, and distributed computing have greatly enhanced my understanding of concurrent and fault-tolerant programming paradigms.`,
       libraries: ["O&M", "Standard"],
-    },
-    {
-      name: "React JS",
-      imageUrl: "react-logo.png",
-      description: `With over two years of hands-on experience in JavaScript, particularly with a strong focus on React JS, I have honed my skills in web development and crafted numerous custom websites using React and TypeScript. One notable example is the very website you are currently visiting.
-
-My journey with React JS has been filled with exciting challenges and rewarding outcomes. I possess a deep understanding of React's component-based architecture and its ecosystem of libraries and tools. Leveraging my proficiency in JavaScript and TypeScript, I have successfully implemented dynamic user interfaces, state management, and efficient data flow within complex web applications.
-
-Through my experience, I have gained expertise in building responsive and interactive web experiences. I have mastered the art of composing reusable and modular React components, ensuring clean and maintainable codebases. Additionally, I have leveraged advanced features like React Hooks and Context API to enhance the performance and scalability of my applications.
-
-Moreover, I have embraced modern web development practices, such as using webpack for bundling, integrating third-party libraries, and staying up-to-date with the latest web standards and best practices. I am particularly interested in exploring web scraping techniques, allowing me to extract and process data from various sources to create valuable insights and applications.
-
-With a keen eye for UI/UX design principles and a focus on delivering intuitive user experiences, I strive to create visually appealing and user-friendly websites. I am well-versed in CSS frameworks like Bootstrap and have a solid understanding of responsive design principles to ensure seamless experiences across different devices.
-
-I am excited to continue my journey with React JS, staying up-to-date with the latest advancements in the framework and exploring emerging technologies and techniques. With my proven track record and passion for crafting exceptional web experiences, I am confident in my ability to contribute to the success of future web projects.`,
-      libraries: ["Boot Strap", "Router", "Query", "Axios"],
+      YoE: "less than 1 Year",
     },
     {
       name: "My-SQL",
@@ -192,12 +230,14 @@ My focus has been on acquiring the skills necessary to retrieve, filter, and agg
 
 As I continue my journey in SQL, I am enthusiastic about further expanding my knowledge and mastering advanced techniques. I am eager to tackle more complex data-related challenges, refine my query optimization skills, and leverage SQL's capabilities to analyze and transform data effectively. `,
       libraries: ["N/A"],
+      YoE: "less than 1 Year",
     },
     {
       name: "PySpark",
       imageUrl: "pyspark-logo.jpg",
       description: `During my enrollment in the Parallel Processes class CDA 5121 at UCF, I had the opportunity to extensively work with PySpark. The course primarily emphasized parallelization techniques for handling large datasets. Through hands-on projects and assignments, I gained practical experience in leveraging PySpark's power to process and analyze data in parallel, enabling efficient computation on massive scales. This hands-on exposure to PySpark in a real-world context has equipped me with the skills and knowledge to tackle complex data processing challenges using distributed computing frameworks.`,
       libraries: ["sql", "SparkConf"],
+      YoE: "less than 1 Year",
     },
     {
       name: "Hadoop",
@@ -216,6 +256,7 @@ As I continue my journey in SQL, I am enthusiastic about further expanding my kn
 
 My experience with Hadoop in the Parallel Processes class equipped me with valuable skills in distributed computing and data processing at scale. It provided a solid foundation for handling big data challenges and leveraging Hadoop's capabilities to drive impactful solutions.`,
       libraries: ["Apache-Spark"],
+      YoE: "less than 1 Year",
     },
   ];
 

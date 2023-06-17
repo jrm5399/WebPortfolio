@@ -469,6 +469,10 @@ body {
 
 .skill-card p {
   margin-top: 5px;
+  /* background-color: rgb(61, 209, 61); */
+  /* color: green; */
+  /* text-shadow: white; */
+  /* font-style: italic; */
 }
 
 .skill-pop-up {
