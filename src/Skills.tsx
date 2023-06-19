@@ -230,7 +230,7 @@ My focus has been on acquiring the skills necessary to retrieve, filter, and agg
 
 As I continue my journey in SQL, I am enthusiastic about further expanding my knowledge and mastering advanced techniques. I am eager to tackle more complex data-related challenges, refine my query optimization skills, and leverage SQL's capabilities to analyze and transform data effectively. `,
       libraries: ["N/A"],
-      YoE: "less than 1 Year",
+      YoE: "1 Year",
     },
     {
       name: "PySpark",
