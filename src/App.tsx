@@ -47,6 +47,14 @@ function App() {
       >
         <AboutMe />
       </div>
+      <h1 className="projects-label">publications</h1>
+      <a
+        href="https://www.frontiersin.org/articles/10.3389/frvir.2022.968312/full"
+        className="url-link"
+        target="_blank"
+      >
+        RAISE: Robotics & AI to Improve STEM and Social Skills
+      </a>
       <h2 className="projects-label">Projects</h2>
       <div className="projects-container">
         <ProjectsGrid onProjectClick={handleProjectClick} />
