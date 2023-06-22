@@ -47,7 +47,7 @@ function App() {
       >
         <AboutMe />
       </div>
-      <h1 className="projects-label">publications</h1>
+      <h1 className="projects-label">Publications</h1>
       <a
         href="https://www.frontiersin.org/articles/10.3389/frvir.2022.968312/full"
         className="url-link"
