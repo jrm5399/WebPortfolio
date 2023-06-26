@@ -3,6 +3,7 @@ import React from "react";
 const AboutMe: React.FC = () => {
   return (
     <div className="about-me-section">
+      <img src="face-pic.JPG" className="abme-img"></img>
       <h3 className="about-me-title">Background</h3>
       <p>
         Welcome! My name is <b className="name-title">John Murphy</b>, and I'm

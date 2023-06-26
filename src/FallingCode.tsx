@@ -13,6 +13,10 @@ const FallingCode: React.FC = () => {
     return Math.floor(Math.random() * window.innerHeight);
   };
 
+  const resetCode = () => {
+    setCharacters([]);
+  };
+
   useEffect(() => {
     const interval = setInterval(() => {
       setCharacters((prevCharacters) => [
@@ -21,8 +25,13 @@ const FallingCode: React.FC = () => {
       ]);
     }, 200);
 
+    const resetInterval = setInterval(() => {
+      resetCode();
+    }, 60000); // Reset every 1 minute
+
     return () => {
       clearInterval(interval);
+      clearInterval(resetInterval);
     };
   }, []);
 

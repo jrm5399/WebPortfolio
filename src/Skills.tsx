@@ -222,6 +222,30 @@ Erlang's unique features and design principles, coupled with its focus on concur
       YoE: "less than 1 Year",
     },
     {
+      name: "CUDA",
+      imageUrl: "cuda-logo.jpeg",
+      description: `
+- Utilized CUDA technology to enable local execution of YOLO (You Only Look Once) models.
+- Leveraged CUDA's parallel computing platform to accelerate the performance of object detection models.
+- Achieved real-time inference and improved efficiency by optimizing YOLO models with CUDA.
+- Processed large-scale image datasets with remarkable speed by integrating CUDA with YOLO models.
+- Demonstrated proficiency in utilizing GPU-accelerated computing for deep learning tasks and optimizing computer vision solutions locally.`,
+      libraries: ["N/A"],
+      YoE: "1 year",
+    },
+    {
+      name: "cuDNN",
+      imageUrl: "cudnn-logo.png",
+      description: `
+- Employed cuDNN (CUDA Deep Neural Network) to accelerate deep learning tasks on GPUs.
+- Leveraged cuDNN's high-performance primitives and optimized algorithms to enhance the speed and efficiency of deep neural networks.
+- Integrated cuDNN with frameworks like TensorFlow and PyTorch to accelerate training and inference of deep learning models.
+- Utilized cuDNN's features such as optimized convolution operations and automatic memory management to improve the performance of neural network computations.
+- Demonstrated proficiency in utilizing cuDNN to achieve faster training and inference times, enabling efficient deep learning workflows.`,
+      libraries: ["N/A"],
+      YoE: "1 year",
+    },
+    {
       name: "My-SQL",
       imageUrl: "sql-logo.png",
       description: `In my journey of exploring SQL, I have been actively learning and delving into the intricacies of this powerful language for data management and analysis. Through hands-on practice and experimentation, I have gained a solid foundation in SQL syntax and principles. I am proficient in creating and manipulating tables, performing queries, and extracting valuable insights from data.
