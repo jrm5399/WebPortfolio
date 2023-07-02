@@ -47,13 +47,21 @@ function App() {
       >
         <AboutMe />
       </div>
-      <h1 className="projects-label">Publications</h1>
+      <h1 className="projects-label">Publications/Papers</h1>
       <a
         href="https://www.frontiersin.org/articles/10.3389/frvir.2022.968312/full"
         className="url-link"
         target="_blank"
       >
         RAISE: Robotics & AI to Improve STEM and Social Skills
+      </a>
+      <h1 className="projects-label">Publications</h1>
+      <a
+        href="https://github.com/jrm5399/SyntheticDataGenerator/blob/main/Final%20Paper.pdf"
+        className="url-link"
+        target="_blank"
+      >
+        Cell Discovery with Magnets: Using YOLO for Interactive Learning
       </a>
       <h2 className="projects-label">Projects</h2>
       <div className="projects-container">
