@@ -23,11 +23,11 @@ const FallingCode: React.FC = () => {
         ...prevCharacters,
         getRandomCharacter(),
       ]);
-    }, 200);
+    }, 400); //produce a random character every 4 ms
 
     const resetInterval = setInterval(() => {
       resetCode();
-    }, 60000); // Reset every 1 minute
+    }, 30000); // Reset every 30 seconds
 
     return () => {
       clearInterval(interval);
