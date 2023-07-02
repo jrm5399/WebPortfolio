@@ -22,9 +22,10 @@
   font-size: 24px;
   color: black;
   background-color: white;
-  width: fit-content;
+  /* width: fit-content; */
   text-align: center;
   margin: auto;
+  margin-bottom: 30px;
   padding: 10px 20px;
   text-decoration: none;
   font-weight: bold;
@@ -37,6 +38,7 @@
 .url-link:hover {
   color: green;
   font-size: 30px;
+  background-color: rgb(240, 240, 240);
 }
 
 .centered-content {
