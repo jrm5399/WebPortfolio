@@ -55,7 +55,6 @@ function App() {
       >
         RAISE: Robotics & AI to Improve STEM and Social Skills
       </a>
-      <h1 className="projects-label">Publications</h1>
       <a
         href="https://github.com/jrm5399/SyntheticDataGenerator/blob/main/Final%20Paper.pdf"
         className="url-link"
