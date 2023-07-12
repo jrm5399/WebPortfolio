@@ -248,13 +248,18 @@ Erlang's unique features and design principles, coupled with its focus on concur
     {
       name: "My-SQL",
       imageUrl: "sql-logo.png",
-      description: `In my journey of exploring SQL, I have been actively learning and delving into the intricacies of this powerful language for data management and analysis. Through hands-on practice and experimentation, I have gained a solid foundation in SQL syntax and principles. I am proficient in creating and manipulating tables, performing queries, and extracting valuable insights from data.
-
-My focus has been on acquiring the skills necessary to retrieve, filter, and aggregate data efficiently. I have explored various SQL functionalities, including joins, subqueries, and data manipulation operations, to enhance my ability to extract meaningful information from databases. Additionally, I have been familiarizing myself with concepts such as database normalization and indexing to optimize query performance.
-
-As I continue my journey in SQL, I am enthusiastic about further expanding my knowledge and mastering advanced techniques. I am eager to tackle more complex data-related challenges, refine my query optimization skills, and leverage SQL's capabilities to analyze and transform data effectively. `,
+      description: `
+- Retrieve relevant data using SQL queries from databases and tables.
+- Specify desired columns and apply filters to extract specific data points for analysis.
+- Join multiple tables to consolidate information from different sources.
+- Utilize aggregation functions (SUM, COUNT, AVG, etc.) and GROUP BY to calculate summary statistics and key metrics.
+- Explore relationships and patterns through subqueries and joins.
+- Perform complex calculations and transformations to manipulate data for advanced analysis.
+- Employ data manipulation operations (INSERT, UPDATE, DELETE) for data quality and integrity.
+- Continuously enhance SQL skills to efficiently retrieve and transform data for advanced analytics and modeling tasks.
+- Support data analytics initiatives at FCX by extracting valuable insights from gathered data.`,
       libraries: ["N/A"],
-      YoE: "1 Year",
+      YoE: "2 Years",
     },
     {
       name: "PySpark",
